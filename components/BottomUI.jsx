@@ -6,12 +6,7 @@ import {
   ScrollView,
   Alert,
 } from "react-native";
-import {
-  INGREDIENTS,
-  useSandwich,
-  addedToCart,
-  setAddedToCart,
-} from "../hooks/useSandwich";
+import { INGREDIENTS, useSandwich } from "../hooks/useSandwich";
 import { AwesomeButton } from "./AwesomeButton";
 
 function capitalizeFirstLetter(str) {
